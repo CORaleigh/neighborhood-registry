@@ -1,0 +1,2 @@
+(this["webpackJsonpneighborhood-registry"]=this["webpackJsonpneighborhood-registry"]||[]).push([[227],{1058:function(n,r,t){"use strict";t.r(r);t(27),t(18),t(193),t(486),t(376);var o=t(331);t.d(r,"build",(function(){return o.b})),t.d(r,"defaultAngleCutoff",(function(){return o.c}))}}]);
+//# sourceMappingURL=227.8025947a.chunk.js.map

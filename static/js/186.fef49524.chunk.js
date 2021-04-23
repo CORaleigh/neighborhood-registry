@@ -1,0 +1,2 @@
+(this["webpackJsonpneighborhood-registry"]=this["webpackJsonpneighborhood-registry"]||[]).push([[186],{1038:function(e,o,t){"use strict";t.r(o),t.d(o,"s",(function(){return c}));var r=t(286),i=Object(r.b)((function(e,o){var t;void 0!==(t=function(e,o){Object.defineProperty(o,"__esModule",{value:!0}),o.default={"Zoom Out":"Oddiali\u0165","From %1 to %2":"Z %1 do %2","From %1":"Z %1","To %1":"Do %1"}}(r.a,o))&&(e.exports=t)})),n=Object(r.c)(i),c=Object.freeze(Object.assign(Object.create(null),i,{default:n}))}}]);
+//# sourceMappingURL=186.fef49524.chunk.js.map
