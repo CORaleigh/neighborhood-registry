@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@arcgis/core": "^4.19.0",
+    "@esri/calcite-components": "^1.0.0-beta.54",
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
@@ -17,8 +19,9 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "npm run copyIcons && react-scripts start",
     "build": "react-scripts build",
+    "copyIcons": "find node_modules/@esri/calcite-components/dist/calcite/assets/ -iname \\*.json -exec cp {} ./public/assets/calcite-icon/ \\;",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -30,9 +33,9 @@
   },
   "browserslist": {
     "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
     ],
     "development": [
       "last 1 chrome version",
